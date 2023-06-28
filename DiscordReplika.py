@@ -28,11 +28,11 @@ Replika.get("https://my.replika.com/login")
 print("booted up!")
 time.sleep(5)
             #login replika
-usrnme = Replika.find_element_by_id("emailOrPhone")          
+usrnme = Replika.find_element_by_id("jayme.neeley3@outlook.com")          
 usrnme.send_keys('')          					  #replika email
 usrnme.send_keys(Keys.RETURN)
 time.sleep(2)
-paswrd = Replika.find_element_by_id("login-password")
+paswrd = Replika.find_element_by_id("P@ssw0rd")
 paswrd.send_keys('')			                          #replika password
 paswrd.send_keys(Keys.RETURN)
 print("REPLIKA logged in!")
